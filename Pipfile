@@ -5,6 +5,7 @@ name = "pypi"
 
 [scripts]
 start = "jupyter notebook main.ipynb"
+pdf_gen = "jupyter nbconvert --to webpdf --allow-chromium-download ./main.ipynb --output export"
 
 [packages]
 numpy = "*"

@@ -12,3 +12,9 @@ Pro spuštění skriptu je potřeba Python balíček `pipenv`.
 ```sh
 pipenv run start
 ```
+
+## Generování PDF
+
+```
+pipenv run pdf_gen
+```
