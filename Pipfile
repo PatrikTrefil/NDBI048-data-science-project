@@ -12,6 +12,7 @@ pandas = "*"
 scipy = "*"
 matplotlib = "*"
 notebook = "*"
+pycountry = "*"
 
 [dev-packages]
 
