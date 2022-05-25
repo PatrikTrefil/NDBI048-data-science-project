@@ -13,6 +13,7 @@ scipy = "*"
 matplotlib = "*"
 notebook = "*"
 pycountry = "*"
+nbconvert = {extras = ["webpdf"], version = "*"}
 
 [dev-packages]
 
