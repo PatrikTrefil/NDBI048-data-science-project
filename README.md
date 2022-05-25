@@ -1,1 +1,1 @@
-# statisticka-uloha
+# Statistická úloha do předmětu NMAI059
