@@ -1,4 +1,4 @@
-# Statistická úloha do předmětu NMAI059
+# Projekt do předmětu Data Science NDBI048
 
 ## Zdroje dat
 
@@ -10,6 +10,7 @@
 Pro spuštění skriptu je potřeba Python balíček `pipenv`.
 
 ```sh
+# vytvoří virtuální prostředí, nainstaluje závislosti a spustí notebook
 pipenv run start
 ```
 
