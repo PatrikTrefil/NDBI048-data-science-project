@@ -23,3 +23,8 @@ jobs:
 
             - name: Build pdf
               run: pipenv run pdf_gen
+
+            - uses: actions/upload-artifact@v4
+              with:
+                name: report.pdf
+                path: export.pdf
