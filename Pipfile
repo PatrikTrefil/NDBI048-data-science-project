@@ -10,11 +10,12 @@ pdf_gen = "jupyter nbconvert --execute --to webpdf --allow-chromium-download ./m
 [packages]
 numpy = "*"
 pandas = "*"
-scipy = "*"
 matplotlib = "*"
 notebook = "*"
 pycountry = "*"
 nbconvert = {extras = ["webpdf"], version = "*"}
+statsmodels = "*"
+scipy = "*"
 
 [dev-packages]
 
