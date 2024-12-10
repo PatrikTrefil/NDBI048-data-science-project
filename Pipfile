@@ -16,6 +16,7 @@ pycountry = "*"
 nbconvert = {extras = ["webpdf"], version = "*"}
 statsmodels = "*"
 scipy = "*"
+geopandas = "*"
 
 [dev-packages]
 
