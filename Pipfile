@@ -17,6 +17,7 @@ nbconvert = {extras = ["webpdf"], version = "*"}
 statsmodels = "*"
 scipy = "*"
 geopandas = "*"
+sklearn = "*"
 
 [dev-packages]
 
