@@ -22,3 +22,9 @@ pipenv run start
 ```sh
 pipenv run pdf_gen
 ```
+
+## Formátování kódu
+
+```sh
+pipenv run format
+```
