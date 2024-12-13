@@ -32,6 +32,9 @@ jobs:
       - name: Install dependencies
         run: pipenv install --ignore-pipfile --dev
 
+      - name: Build html
+        run: pipenv run html_gen
+
       - uses: actions/setup-node@v4
         with:
           node-version: 18
