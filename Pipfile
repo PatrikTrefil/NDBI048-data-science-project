@@ -6,6 +6,7 @@ name = "pypi"
 [scripts]
 start = "jupyter notebook main.ipynb"
 pdf_gen = "jupyter nbconvert --execute --to webpdf --allow-chromium-download ./main.ipynb --output export"
+html_gen = "jupyter nbconvert --execute --to html ./main.ipynb --output export"
 format = "black main.ipynb"
 
 [packages]
