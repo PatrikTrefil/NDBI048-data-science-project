@@ -6,7 +6,7 @@ name = "pypi"
 [scripts]
 start = "jupyter notebook main.ipynb"
 pdf_gen = "jupyter nbconvert --execute --to webpdf --allow-chromium-download ./main.ipynb --output export"
-html_gen = "jupyter nbconvert --execute --to html ./main.ipynb --output-dir html --output index"
+html_gen = "jupyter nbconvert --execute --to html --template pj ./main.ipynb --output-dir html --output index"
 format = "black main.ipynb"
 
 [packages]
@@ -20,6 +20,7 @@ statsmodels = "*"
 scipy = "*"
 geopandas = "*"
 scikit-learn = "*"
+pretty-jupyter = "*"
 
 [dev-packages]
 black = {extras = ["jupyter"], version = "*"}
